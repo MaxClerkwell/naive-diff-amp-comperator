@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Naive differential-amplifier comparator: SKiDL circuit, KiCad schematic and ngspice simulation"
+authors:
+  - family-names: "Bökelmann"
+    given-names: "Stephan"
+license: CC-BY-4.0
+repository-code: "https://github.com/MaxClerkwell/naive-diff-amp-comperator"
+version: 1.0.0
+date-released: 2026-09-25
