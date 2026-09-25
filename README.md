@@ -1,5 +1,10 @@
 # Transistor comparator (SKiDL → KiCad → ngspice)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22965438.svg)](https://doi.org/10.5281/zenodo.22965438)
+
+Release v1.0.0 is archived on Zenodo: DOI [10.5281/zenodo.22965438](https://doi.org/10.5281/zenodo.22965438)
+(concept DOI for all versions: [10.5281/zenodo.22965437](https://doi.org/10.5281/zenodo.22965437)).
+
 A simple comparator built from discrete bipolar transistors, no op-amp:
 
 * **Q1/Q2 (2N3904)** – NPN differential pair, common emitter resistor RE (≈ 0.4 mA tail current)
