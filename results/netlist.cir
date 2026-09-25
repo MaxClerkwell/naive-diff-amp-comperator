@@ -1,0 +1,16 @@
+transistor comparator
+.model __Q1 NPN is=10f bf=300 vaf=100 ikf=0.4 br=4 rb=20 re=0.1 rc=0.1 cje=8p vje=0.75 tf=350p xtf=3 vtf=2 itf=1 cjc=4p vjc=0.75 tr=250n xtb=1.5
+.model __Q3 PNP is=10f bf=200 vaf=100 ikf=0.4 br=4 rb=20 re=0.1 rc=0.1 cje=10p vje=0.75 tf=350p xtf=3 vtf=2 itf=1 cjc=4.5p vjc=0.75 tr=250n xtb=1.5
+.model __Q2 NPN is=10f bf=300 vaf=100 ikf=0.4 br=4 rb=20 re=0.1 rc=0.1 cje=8p vje=0.75 tf=350p xtf=3 vtf=2 itf=1 cjc=4p vjc=0.75 tr=250n xtb=1.5
+RC1 vcc c1 4.7k
+V1 vcc 0 DC 5
+VREF1 v_ref 0 DC 2.5
+VIN1 v_in 0 DC 2.5 SIN( 2.5 2 1k )
+Q1 c1 v_in tail __Q1
+RE1 tail 0 4.7k
+RC2 vcc c2 4.7k
+RB1 c1 net-_q3-b_ 10k
+Q3 out net-_q3-b_ vcc __Q3
+RL1 out 0 10k
+Q2 c2 v_ref tail __Q2
+.end

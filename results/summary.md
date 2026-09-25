@@ -1,5 +1,7 @@
 # Transistor comparator - simulation results
 
+Schematic: `komparator.kicad_sch`
+
 ## Characteristics
 
 | Parameter                                      | Value             |

@@ -8,3 +8,4 @@ __pycache__/
 *_sklib.py
 *-erc.rpt
 .history/
+~*.lck

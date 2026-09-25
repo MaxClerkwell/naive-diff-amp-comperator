@@ -1,0 +1,15 @@
+[project]
+name = "transistor-komparator"
+version = "0.1.0"
+description = "Discrete-transistor comparator: SKiDL circuit, KiCad schematic and ngspice simulation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "CC-BY-4.0"
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "skidl>=2.3",
+]
+
+[tool.uv]
+package = false
