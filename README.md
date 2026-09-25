@@ -8,6 +8,15 @@ A simple comparator built from discrete bipolar transistors, no op-amp:
 
 `OUT = VCC` if `V_IN > V_REF`, otherwise `OUT = 0 V`.
 
+![Schematic](docs/schematic.png)
+
+The schematic was generated from the SKiDL description and then re-arranged
+by hand in KiCad for readability (KiCad also re-annotated some references,
+e.g. `VREF` → `VREF1`). The connectivity was verified afterwards against the
+SKiDL netlist and the simulation results are unchanged. Re-running
+`komparator.py` would regenerate the automatic layout and discard the manual
+placement.
+
 ## Files
 
 | File | Content |
@@ -20,6 +29,7 @@ A simple comparator built from discrete bipolar transistors, no op-amp:
 | `komparator.net` | KiCad netlist from SKiDL |
 | `komparator.cir` | SPICE netlist derived from the SKiDL circuit |
 | `pyproject.toml` / `uv.lock` | dependencies for `uv run` |
+| `docs/schematic.png` | rendering of the hand-arranged schematic |
 | `results/` | `summary.md`, the simulated netlist, raw CSV data, PNG figures and `overview.png` (all plots on one canvas) |
 
 ## Usage
