@@ -1,0 +1,10 @@
+.venv/
+build/
+__pycache__/
+*.kicad_prl
+*-backups/
+*.erc
+*.log
+*_sklib.py
+*-erc.rpt
+.history/

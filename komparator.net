@@ -1,0 +1,475 @@
+(export 
+  (version "D")
+  (design
+    (source "komparator.py")
+    (date "09/25/2026 03:31 PM")
+    (tool "SKiDL (2.3.0)")
+    (sheet
+      (number 1)
+      (name "/")
+      (tstamps "/")
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source "komparator.py")
+        (comment
+          (number "1")
+          (value ""))
+        (comment
+          (number "2")
+          (value ""))
+        (comment
+          (number "3")
+          (value ""))
+        (comment
+          (number "4")
+          (value ""))
+        (comment
+          (number "5")
+          (value ""))
+        (comment
+          (number "6")
+          (value ""))
+        (comment
+          (number "7")
+          (value ""))
+        (comment
+          (number "8")
+          (value ""))
+        (comment
+          (number "9")
+          (value "")))))
+  (components
+    (comp
+      (ref "Q1")
+      (value "2N3904")
+      (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92")
+      (footprint "Package_TO_SOT_THT:TO-92_Inline")
+      (fields
+        (field
+          (name "Sim.Device") "NPN")
+        (field
+          (name "Sim.Type") "GUMMELPOON")
+        (field
+          (name "Sim.Pins") "1=E 2=B 3=C")
+        (field
+          (name "Sim.Params") "IS=1E-14 VAF=100 BF=300 IKF=0.4 XTB=1.5 BR=4 CJC=4E-12 CJE=8E-12 RB=20 RC=0.1 RE=0.1 TR=250E-9 TF=350E-12 ITF=1 VTF=2 XTF=3 VJE=0.75 VJC=0.75")
+        (field
+          (name "Description") "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92")
+        (field
+          (name "Footprint") "Package_TO_SOT_THT:TO-92_Inline")
+        (field
+          (name "Datasheet") "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF")
+        (field
+          (name "SKiDL Tag") "fRpTojRqyl")
+        (field
+          (name "SKiDL Line") "komparator.py:77"))
+      (libsource
+        (lib "Transistor_BJT")
+        (part "2N3904"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "64d689eb-238b-52eb-95e8-6fb9cd246511"))
+    (comp
+      (ref "Q2")
+      (value "2N3904")
+      (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92")
+      (footprint "Package_TO_SOT_THT:TO-92_Inline")
+      (fields
+        (field
+          (name "Sim.Device") "NPN")
+        (field
+          (name "Sim.Type") "GUMMELPOON")
+        (field
+          (name "Sim.Pins") "1=E 2=B 3=C")
+        (field
+          (name "Sim.Params") "IS=1E-14 VAF=100 BF=300 IKF=0.4 XTB=1.5 BR=4 CJC=4E-12 CJE=8E-12 RB=20 RC=0.1 RE=0.1 TR=250E-9 TF=350E-12 ITF=1 VTF=2 XTF=3 VJE=0.75 VJC=0.75")
+        (field
+          (name "Description") "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92")
+        (field
+          (name "Footprint") "Package_TO_SOT_THT:TO-92_Inline")
+        (field
+          (name "Datasheet") "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF")
+        (field
+          (name "SKiDL Tag") "PSAQumeFhl")
+        (field
+          (name "SKiDL Line") "komparator.py:78"))
+      (libsource
+        (lib "Transistor_BJT")
+        (part "2N3904"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "60606ca2-2de9-570e-9342-f244886e4109"))
+    (comp
+      (ref "Q3")
+      (value "2N3906")
+      (description "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92")
+      (footprint "Package_TO_SOT_THT:TO-92_Inline")
+      (fields
+        (field
+          (name "Sim.Device") "PNP")
+        (field
+          (name "Sim.Type") "GUMMELPOON")
+        (field
+          (name "Sim.Pins") "1=E 2=B 3=C")
+        (field
+          (name "Sim.Params") "IS=1E-14 VAF=100 BF=200 IKF=0.4 XTB=1.5 BR=4 CJC=4.5E-12 CJE=10E-12 RB=20 RC=0.1 RE=0.1 TR=250E-9 TF=350E-12 ITF=1 VTF=2 XTF=3 VJE=0.75 VJC=0.75")
+        (field
+          (name "Description") "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92")
+        (field
+          (name "Footprint") "Package_TO_SOT_THT:TO-92_Inline")
+        (field
+          (name "Datasheet") "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF")
+        (field
+          (name "SKiDL Tag") "MZjzJViVNH")
+        (field
+          (name "SKiDL Line") "komparator.py:98"))
+      (libsource
+        (lib "Transistor_BJT")
+        (part "2N3906"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "ca1dd258-33d5-5073-81e8-361d0db6d66e"))
+    (comp
+      (ref "RB")
+      (value "10k")
+      (description "Resistor")
+      (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "W_Lod43Qc7")
+        (field
+          (name "SKiDL Line") "komparator.py:101"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "f7287221-f58a-5e37-8cde-2a274e47f84d"))
+    (comp
+      (ref "RC1")
+      (value "4.7k")
+      (description "Resistor")
+      (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "s5uq6GZjwA")
+        (field
+          (name "SKiDL Line") "komparator.py:83"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "116a2034-8d09-5a35-a5a8-357203ccfbb0"))
+    (comp
+      (ref "RC2")
+      (value "4.7k")
+      (description "Resistor")
+      (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "Gaeew9cfvJ")
+        (field
+          (name "SKiDL Line") "komparator.py:84"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "d400a27a-0d3a-5558-bd74-4f5ec42bfab4"))
+    (comp
+      (ref "RE")
+      (value "4.7k")
+      (description "Resistor")
+      (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "U1cD17wCQu")
+        (field
+          (name "SKiDL Line") "komparator.py:85"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "8b214530-b4cf-582e-859f-5c534a7e84ae"))
+    (comp
+      (ref "RL")
+      (value "10k")
+      (description "Resistor")
+      (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "7F9hqYwEuG")
+        (field
+          (name "SKiDL Line") "komparator.py:102"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "82b3b496-481f-58ad-810e-68c71d3386ab"))
+    (comp
+      (ref "V1")
+      (value "5")
+      (description "Voltage source, DC")
+      (footprint "")
+      (fields
+        (field
+          (name "Sim.Params") "dc=5")
+        (field
+          (name "Description") "Voltage source, DC")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet") "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for")
+        (field
+          (name "SKiDL Tag") "9l_wPGMOKd")
+        (field
+          (name "SKiDL Line") "komparator.py:109"))
+      (libsource
+        (lib "Simulation_SPICE")
+        (part "VDC"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "7e08d97e-6e00-5cc8-aabf-f2d652b1101e"))
+    (comp
+      (ref "VIN")
+      (value "VSIN")
+      (description "Voltage source, sinusoidal")
+      (footprint "")
+      (fields
+        (field
+          (name "Sim.Params") "dc=2.5 ampl=2 f=1k")
+        (field
+          (name "Description") "Voltage source, sinusoidal")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet") "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for")
+        (field
+          (name "SKiDL Tag") "je8V09z1Ik")
+        (field
+          (name "SKiDL Line") "komparator.py:117"))
+      (libsource
+        (lib "Simulation_SPICE")
+        (part "VSIN"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "be93744e-5a66-5858-b3d6-73976343f9f3"))
+    (comp
+      (ref "VREF")
+      (value "2.5")
+      (description "Voltage source, DC")
+      (footprint "")
+      (fields
+        (field
+          (name "Sim.Params") "dc=2.5")
+        (field
+          (name "Description") "Voltage source, DC")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet") "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for")
+        (field
+          (name "SKiDL Tag") "746eF6qPBR")
+        (field
+          (name "SKiDL Line") "komparator.py:113"))
+      (libsource
+        (lib "Simulation_SPICE")
+        (part "VDC"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "5e123253-f826-5b41-b7df-b8b4773b6eed")))
+  (nets
+    (net
+      (code 1)
+      (name "C1")
+      (class "Default")
+      (node
+        (ref "Q1")
+        (pin "3")
+        (pintype "PASSIVE"))
+      (node
+        (ref "RB")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "RC1")
+        (pin "2")
+        (pintype "PASSIVE")))
+    (net
+      (code 2)
+      (name "C2")
+      (class "Default")
+      (node
+        (ref "Q2")
+        (pin "3")
+        (pintype "PASSIVE"))
+      (node
+        (ref "RC2")
+        (pin "2")
+        (pintype "PASSIVE")))
+    (net
+      (code 3)
+      (name "GND")
+      (class "Default")
+      (node
+        (ref "RE")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "RL")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "V1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "VIN")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "VREF")
+        (pin "2")
+        (pintype "PASSIVE")))
+    (net
+      (code 4)
+      (name "N$1")
+      (class "Default")
+      (node
+        (ref "Q3")
+        (pin "2")
+        (pintype "INPUT"))
+      (node
+        (ref "RB")
+        (pin "2")
+        (pintype "PASSIVE")))
+    (net
+      (code 5)
+      (name "OUT")
+      (class "Default")
+      (node
+        (ref "Q3")
+        (pin "3")
+        (pintype "PASSIVE"))
+      (node
+        (ref "RL")
+        (pin "1")
+        (pintype "PASSIVE")))
+    (net
+      (code 6)
+      (name "TAIL")
+      (class "Default")
+      (node
+        (ref "Q1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "Q2")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "RE")
+        (pin "1")
+        (pintype "PASSIVE")))
+    (net
+      (code 7)
+      (name "VCC")
+      (class "Default")
+      (node
+        (ref "Q3")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "RC1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "RC2")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "V1")
+        (pin "1")
+        (pintype "PASSIVE")))
+    (net
+      (code 8)
+      (name "V_IN")
+      (class "Default")
+      (node
+        (ref "Q1")
+        (pin "2")
+        (pintype "INPUT"))
+      (node
+        (ref "VIN")
+        (pin "1")
+        (pintype "PASSIVE")))
+    (net
+      (code 9)
+      (name "V_REF")
+      (class "Default")
+      (node
+        (ref "Q2")
+        (pin "2")
+        (pintype "INPUT"))
+      (node
+        (ref "VREF")
+        (pin "1")
+        (pintype "PASSIVE")))))

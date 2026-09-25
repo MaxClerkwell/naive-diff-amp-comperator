@@ -1,0 +1,3 @@
+skidl>=2.3
+numpy
+matplotlib

@@ -1,0 +1,15 @@
+transistor-komparator
+Q1 c1 v_in tail 2N3904
+Q2 c2 v_ref tail 2N3904
+Q3 out n$1 vcc 2N3906
+RB c1 n$1 10k
+RC1 vcc c1 4.7k
+RC2 vcc c2 4.7k
+RE tail 0 4.7k
+RL out 0 10k
+V1 vcc 0 dc 5
+VIN v_in 0 dc 2.5 sin(2.5 2 1k)
+VREF v_ref 0 dc 2.5
+.model 2N3904 NPN(IS=1E-14 VAF=100 BF=300 IKF=0.4 XTB=1.5 BR=4 CJC=4E-12 CJE=8E-12 RB=20 RC=0.1 RE=0.1 TR=250E-9 TF=350E-12 ITF=1 VTF=2 XTF=3 VJE=0.75 VJC=0.75)
+.model 2N3906 PNP(IS=1E-14 VAF=100 BF=200 IKF=0.4 XTB=1.5 BR=4 CJC=4.5E-12 CJE=10E-12 RB=20 RC=0.1 RE=0.1 TR=250E-9 TF=350E-12 ITF=1 VTF=2 XTF=3 VJE=0.75 VJC=0.75)
+.end
