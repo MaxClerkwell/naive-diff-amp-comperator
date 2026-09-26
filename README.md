@@ -35,6 +35,7 @@ placement.
 | `komparator.cir` | SPICE netlist derived from the SKiDL circuit |
 | `pyproject.toml` / `uv.lock` | dependencies for `uv run` |
 | `docs/schematic.png` | rendering of the hand-arranged schematic |
+| `docs/falstad.txt` / `docs/falstad_url.txt` | the same circuit for the [Falstad circuit simulator](https://www.falstad.com/circuit/) (import via *File → Import From Text*, or open the link) |
 | `results/` | `summary.md`, the simulated netlist, raw CSV data, PNG figures and `overview.png` (all plots on one canvas) |
 
 ## Usage
@@ -61,6 +62,12 @@ and overwrites manual placement changes.
 netlist and compares its connectivity with the SKiDL circuit. The message
 `Schematic <-> SKiDL netlist: IDENTICAL` confirms that schematic and simulation
 describe the same circuit.
+
+## Interactive version (Falstad)
+
+The circuit is also available for the browser-based Falstad simulator, with
+scopes on V_IN and OUT:
+[open in Falstad](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWcMBMcUHYMGZIA4UA2ATmIxAUgpABZsKBTAWjDACgAlcYlEYw7r0I0oomlSRUp0BGwBOgvgLA9whKbQxw2Ad0Vh1+jAMhsALmqore1xVajQTj5Ka7Y0SkO6rDRVcdQaMLIK3p5hBho0WqZ6EYYRxlDmXgg2qhGq9jBOytp6tmh4iigBsV4eRRVUpVK6JQFhtckKKAgCzW0CuCL+MWwA5iBdXpAiI2F1AG6emLz8duAuNcMyfjL1C7aRdoOzGPMdeMV1cWmK2ITFtuWX1xlXw6XJbo8oz3fD7X60NWtBGwKqh2IMM5VBVgSvHBUNoBgqyT0NHh7jhyiy8jRihovhuy1MFhxIlsNC2WRALAcuRcnFoWySpOUNF6YgkP2C9UZw3wdI6ZUxXOaXJ6ojA8FMQ2FY151T8nIWzQQzOG-IAHhRzqUkAg8DUaMViSIAPIAVQAKmx1WKrLrwLhwHh6IaQAA1AD6AEkAHKWry2zD+So4WjgETujgAUQAYr60D49T4neBeC6AMKp2Niu0Ju1JsC8Dip9jq7DYa72z5gUsh-MgQsoWMYcYYJC4GoYA3JusR310G3+b5gR01gsAIV9CDAze1AUwndrHAAMrG4NzfjU8yIi2wAPZ2kC+fyQYjFSTQCBWXfDciH34nwLnpbsIA)
 
 ## Results (see `results/summary.md`)
 
