@@ -1,8 +1,8 @@
 # Transistor comparator (SKiDL → KiCad → ngspice)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22965438.svg)](https://doi.org/10.5281/zenodo.22965438)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22979080.svg)](https://doi.org/10.5281/zenodo.22979080)
 
-Release v1.0.0 is archived on Zenodo: DOI [10.5281/zenodo.22965438](https://doi.org/10.5281/zenodo.22965438)
+Release v1.1.0 is archived on Zenodo: DOI [10.5281/zenodo.22979080](https://doi.org/10.5281/zenodo.22979080)
 (concept DOI for all versions: [10.5281/zenodo.22965437](https://doi.org/10.5281/zenodo.22965437)).
 
 A simple comparator built from discrete bipolar transistors, no op-amp:

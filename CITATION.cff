@@ -5,7 +5,7 @@ authors:
   - family-names: "Bökelmann"
     given-names: "Stephan"
 license: CC-BY-4.0
-doi: 10.5281/zenodo.22965437
+doi: 10.5281/zenodo.22979080
 repository-code: "https://github.com/MaxClerkwell/naive-diff-amp-comperator"
 version: 1.1.0
 date-released: 2026-09-26
